@@ -1,0 +1,16 @@
+{
+  "name": "@edgewords/cypressproject",
+  "version": "1.0.0",
+  "description": "Cypress Training Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run --spec \"cypress\\integration\\Tests\\*.spec.js\" --headed --browser chrome",
+    "record": "cypress run --spec \"cypress\\integration\\Tests\\*.spec.js\" --record --key 0e6eb4e9-7904-4385-a1f4-e92d3dbbf733",
+    "open": "cypress open"
+  },
+  "author": "Tom Millichamp",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "cypress": "^6.3.0"
+  }
+}
